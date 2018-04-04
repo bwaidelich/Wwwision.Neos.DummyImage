@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" font-size="100%">
+                <rect x="1" y="1" width="598" height="498" style="fill:#ccc;stroke:#b5b5b5;stroke-width:1" vector-effect="non-scaling-stroke"/>
+                <g stroke-width="1" stroke="#b5b5b5">
+                    <line x1="0" y1="0" x2="600" y2="500" vector-effect="non-scaling-stroke"/>
+                    <line x1="600" y1="0" x2="0" y2="500" vector-effect="non-scaling-stroke"/>
+                </g>
+                <text y="50%" x="50%" font-size="100" text-anchor="middle" alignment-baseline="central" font-family="system-ui" fill="#f5f5f5">
+                    <tspan dy="0.2em">600 x 500</tspan>
+                    
+                </text>
+            </svg>

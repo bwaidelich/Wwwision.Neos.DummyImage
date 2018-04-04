@@ -1,0 +1,6 @@
+prototype(Wwwision.Neos.DummyImage:DummyImage) {
+    @class = 'Wwwision\\Neos\\DummyImage\\FusionObjects\\DummyImageImplementation'
+
+    width = 500
+    height = 500
+}

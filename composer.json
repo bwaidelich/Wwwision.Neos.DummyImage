@@ -1,0 +1,20 @@
+{
+    "name": "wwwision/neos-dummyimage",
+    "description": "Package that allows for rendering dynamic dummy images in the Neos backend.",
+    "type": "neos-package",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": "^7.1",
+        "neos/neos": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\Neos\\DummyImage\\": "Classes"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.Neos.DummyImage"
+        }
+    }
+}
