@@ -4,6 +4,7 @@ namespace Wwwision\Neos\DummyImage;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\ResourceManagement\PersistentResource;
 use Neos\Media\Domain\Model\AssetInterface;
+use Neos\Media\Domain\Model\AssetSource\AssetProxy\AssetProxyInterface;
 use Neos\Media\Domain\Model\DimensionsTrait;
 use Neos\Media\Domain\Model\ImageInterface;
 use Neos\Media\Domain\Model\Thumbnail;
@@ -161,6 +162,20 @@ final class DummyImage implements AssetInterface, ImageInterface
 
     public function refresh(): void
     {
+        // not used
+    }
+
+    public function setAssetSourceIdentifier(string $assetSourceIdentifier): void
+    {
+        // not used
+    }
+
+    public function getAssetSourceIdentifier(): ?string
+    {
+        // not used
+    }
+
+    public function getAssetProxy(): ?AssetProxyInterface {
         // not used
     }
 
