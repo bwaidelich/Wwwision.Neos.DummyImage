@@ -18,7 +18,7 @@ class AssetServiceAspect
     /**
      * @Flow\Around("method(Neos\Media\Domain\Service\AssetService->getThumbnailUriAndSizeForAsset())")
      */
-    public function getThumbnailUriAndSizeForAssetAspect(JoinPointInterface $joinPoint): array
+    public function getThumbnailUriAndSizeForAssetAspect(JoinPointInterface $joinPoint): ?array
     {
         /** @var AssetInterface $asset */
         $asset = $joinPoint->getMethodArgument('asset');
